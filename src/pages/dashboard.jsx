@@ -4,7 +4,7 @@ import { toast } from "react-hot-toast";
 import "./dashboard.css";
 import logoImg from "../Images/bakkahimmobilier.JPG";
 import luxuryApartment from "../Images/luxury_apartment.png";
-import mohammadiaImg from "../Images/Appartment in Mohammédia.jpg";
+import mohammadiaImg from "../Images/appartment_mohammedia.jpg";
 import villaRabatImg from "../Images/villa-Rabat.jpg";
 import luxuryVilla from "../Images/luxury_villa.png";
 import cfcTowerImg from "../Images/Cfc.jpg";
@@ -236,7 +236,7 @@ export default function Dashboard() {
                 : p.location,
           image:
             p.image_path === "luxury_apartment.png" ||
-            p.image_path === "Appartment in Mohammédia.jpg"
+            p.image_path === "appartment_mohammedia.jpg"
               ? mohammadiaImg
               : p.image_path === "luxury_villa.png" ||
                   p.image_path === "villa-Rabat.jpg"

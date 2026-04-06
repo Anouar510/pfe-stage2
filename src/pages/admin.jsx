@@ -191,7 +191,7 @@ export default function AdminDashboard() {
                 : p.location,
           image_path:
             p.image_path === "luxury_apartment.png"
-              ? "Appartment in Mohammédia.jpg"
+              ? "appartment_mohammedia.jpg"
               : p.image_path === "luxury_villa.png"
                 ? "villa-Rabat.jpg"
                 : p.image_path,
