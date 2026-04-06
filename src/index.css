@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0a0f;
+  color: white;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+/* Modernizing Bootstrap Forms */
+.form-control, .form-select {
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca !important;
+  transform: translateY(-1px);
+}
+
+.form-label {
+  color: #475569;
+}
