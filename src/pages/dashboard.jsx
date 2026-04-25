@@ -159,7 +159,7 @@ export default function Dashboard() {
       name: "Immeuble CFC Tower",
       location: "Casablanca, CFC",
       progress: 65,
-      status: "Gros ï¿½uvre en cours",
+      status: "Gros œuvre en cours",
       total_value: 45000000,
       delivery_date: "2026-12-31",
       image_path: "Cfc.jpg",
@@ -168,8 +168,8 @@ export default function Dashboard() {
       steps: [
         { id: "s1", label: "Terrassement", status: "completed", order_num: 1 },
         { id: "s2", label: "Fondations", status: "completed", order_num: 2 },
-        { id: "s3", label: "Gros ï¿½uvre", status: "in-progress", order_num: 3 },
-        { id: "s4", label: "ï¿½0tanchéité", status: "pending", order_num: 4 },
+        { id: "s3", label: "Gros œuvre", status: "in-progress", order_num: 3 },
+        { id: "s4", label: "Étanchéité", status: "pending", order_num: 4 },
       ],
     },
   ];
@@ -1144,7 +1144,7 @@ export default function Dashboard() {
                 </div>
 
                 <div className="timeline">
-                  <h4>ï¿½0tapes de construction</h4>
+                  <h4>Étapes de construction</h4>
                   {!selectedProject.steps ||
                   selectedProject.steps.length === 0 ? (
                     <p

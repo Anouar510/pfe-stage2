@@ -1224,7 +1224,7 @@ export default function AdminDashboard() {
                             {c.role}
                           </span>
                         </td>
-                        <td>{c.phone || "�"}</td>
+                        <td>{c.phone || "-"}</td>
                         <td>
                           <div className="action-btns">
                             <button
@@ -1551,7 +1551,7 @@ export default function AdminDashboard() {
                     onChange={(e) =>
                       setProjectForm({ ...projectForm, status: e.target.value })
                     }
-                    placeholder="Ex: Gros �uvre"
+                    placeholder="Ex: Gros œuvre"
                   />
                 </div>
                 <div className="col-md-6">
@@ -1737,7 +1737,7 @@ export default function AdminDashboard() {
               >
                 <X size={24} color="#64748b" />
               </button>
-              <h2>Gestion des �Étapes : {selectedProjectForSteps.name}</h2>
+              <h2>Gestion des Étapes : {selectedProjectForSteps.name}</h2>
 
               <div style={{ marginTop: "20px" }}>
                 <form
@@ -1950,4 +1950,5 @@ export default function AdminDashboard() {
     </div>
   );
 }
+
 
